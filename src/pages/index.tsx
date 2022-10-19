@@ -12,7 +12,7 @@ type HomeProps = {
 const Home: NextPage<HomeProps> = () => {
   return (
         <ApplicationWrapper title='Home'>
-          <div className="grow flex justify-center items-center">
+          <div className="grow flex justify-center items-center ">
             <h1 className="text-7xl font-bold underline">
               Pagina de Nelson!
             </h1> 
