@@ -13,7 +13,7 @@ type Tprops = {
 const Buy: NextPage<Tprops> = () => {
   return (
         <ApplicationWrapper title='Buy'>
-            <h1 className="text-3xl font-bold underline">Buy Fruit</h1>
+            
         <FruitList /> 
         </ApplicationWrapper>
   );

@@ -13,7 +13,7 @@ export const ApplicationWrapper: FC<PropsWithChildren <Tprops>> = ({
     children,
 }) => {
     return (
-    <div className="bg-black min-h-screen flex flex-col">
+    <div className="bg-amber-400 min-h-screen flex flex-col">
         <Head>
             <title>{title} | Fruits Panama</title>
             {description && <meta name="description" content={description} />}
