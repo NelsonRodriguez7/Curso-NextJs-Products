@@ -1,5 +1,41 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+export interface IFruit{
+    Title: string;
+    "Origin": string;
+    "Price": number;
+    "Minerals": string;
+    "Dispenser": string;
+    "Packaging": string;
+    "Certification": string;
+    id: number;
+    Poster: string;
+}
+
+const useFruit = () => {
+    const [fruit,setFruit] = useState<IFruit[]>([]);
+
+    useEffect(() => {
+        fetch(process.env.NEXT_PUBLIC_API_URL+"/fruit")
+          .then((res) => res.json())
+          .then((data: IFruit[]) => setFruit(data.slice(0)))
+          .catch((error) => console.error(error));
+      }, []);
+    
+    return fruit;
+}
 
 export const FruitList = () => {
-    return <div>FruitList</div>;
+    const fruit = useFruit();
+    return( <div className="flex flex-col justify-center text-white items-center p-6">
+                <ul className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
+                    {fruit.map((frui) => (
+                        <li key={frui.id}>
+                            <img src={frui.Poster} alt={`${frui.Title} Poster`}/>
+                            <strong className="text-lg">{frui.Title}</strong>
+                        </li>
+                    ))}
+                </ul>
+           </div>
+        );
 };
