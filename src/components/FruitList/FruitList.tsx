@@ -18,7 +18,7 @@ const useFruit = () => {
     useEffect(() => {
         fetch(process.env.NEXT_PUBLIC_API_URL+"/fruit")
           .then((res) => res.json())
-          .then((data: IFruit[]) => setFruit(data.slice(0)))
+          .then((data: IFruit[]) => setFruit(data.slice(0,8)))
           .catch((error) => console.error(error));
       }, []);
     
