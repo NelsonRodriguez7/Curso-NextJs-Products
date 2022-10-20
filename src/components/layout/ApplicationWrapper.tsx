@@ -23,7 +23,7 @@ export const ApplicationWrapper: FC<PropsWithChildren <Tprops>> = ({
             <Nav />
         </header>
         <main className="grow flex flex-col text-white">{children}</main>
-        <footer className="flex p-6 h-20 text-black bg-white items-center justify-center">
+        <footer className="flex p-6 h-20 text-amber-400 bg-white items-center justify-center">
         <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"

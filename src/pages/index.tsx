@@ -14,7 +14,7 @@ const Home: NextPage<HomeProps> = () => {
           <div className="grow flex justify-center items-center bg-[url('/images/bg_portada2.jpg')]">
             <h1 className="text-7xl font-bold underline">
               Fruit Panamá S.A
-            </h1>           
+            </h1>
           </div>
         </ApplicationWrapper>
   );

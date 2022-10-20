@@ -1,0 +1,15 @@
+{
+  "fruit": [
+    {
+      "Title": "Apple",
+      "Origin": "Turkey",
+      "Price": 1.17,
+      "Minerals": "zinc, manganese, sulfur, fluorine, iodine, boron and selenium",
+      "Dispenser": "Fruits Panamá S.A",
+      "Packaging": "Yes",
+      "Certification": "BRC Food Safety",
+      "id": 0,
+      "Poster": "https://mega.nz/file/ABhXjQqR#vIjB1iSx-7xtMdxvdZsjBSEbmKzQ6TKWRDfItroBjzc"
+    }
+  ]
+}
