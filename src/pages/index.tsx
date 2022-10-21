@@ -11,7 +11,7 @@ type HomeProps = {
 const Home: NextPage<HomeProps> = () => {
   return (
         <ApplicationWrapper title='Home'>
-          <div className="grow flex justify-center items-center bg-[url('/images/bg_portada2.jpg')]">
+          <div className="grow flex justify-center items-center bg-[url('/images/bg_portada2.jpg')] ">
             <h1 className="text-7xl font-bold underline">
               Fruit Panamá S.A
             </h1>
