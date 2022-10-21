@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Frui from "./Frui/Frui";
 
 export interface IFruit{
     Title: string;
@@ -30,10 +31,7 @@ export const FruitList = () => {
     return( <div className="flex flex-col justify-center text-white items-center p-6">
                 <ul className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-5">
                     {fruit.map((frui) => (
-                        <li key={frui.id}>
-                            <img src={frui.Poster} alt={`${frui.Title} Poster`}/>
-                            <strong className="text-lg">{frui.Title}</strong>
-                        </li>
+                        <Frui key={frui.id} frui = {frui}  />
                     ))}
                 </ul>
            </div>
