@@ -12,8 +12,7 @@ type Tprops = {
 
 const Buy: NextPage<Tprops> = () => {
   return (
-        <ApplicationWrapper title='Buy'>
-            
+        <ApplicationWrapper title='Buy'>            
         <FruitList /> 
         </ApplicationWrapper>
   );
