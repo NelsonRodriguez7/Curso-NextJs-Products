@@ -113,7 +113,7 @@ export const Foo:FC = () =>{
 
         <div className="text-center text-gray-700 p-2">
             © 2022 Copyright:
-            <a className="text-gray-800" href="https://github.com/NelsonRodriguez7/Curso-NextJs-Products"> Powered By Fruit Panamá S.A | Nelson Rodriguez</a>
+            <a className="text-gray-800" href="https://github.com/NelsonRodriguez7/Curso-NextJs-Products"> Powered By Nelson Rodriguez | nelson.rodriguez7@utp.ac.pa</a>
         </div>
         </footer>
     );
