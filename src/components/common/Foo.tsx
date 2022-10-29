@@ -91,7 +91,7 @@ export const Foo:FC = () =>{
                 ></path>
                 </svg>
             </a>
-            <a href="#!" className="text-gray-800">
+            <a href="https://github.com/NelsonRodriguez7/Curso-NextJs-Products" className="text-gray-800">
                 <svg
                 aria-hidden="true"
                 focusable="false"
